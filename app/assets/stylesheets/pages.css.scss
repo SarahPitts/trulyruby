@@ -4,12 +4,42 @@
 
 @import "compass/reset";
 
-$ruby: #D60700;
+$ruby: #A1101C;
+$blue: #688DA1;
+$creme: #F0EEA6;
+
+$margin: 5%;
+$marginH: 2%;
 
 #header {
-		h1 {
-		font-family: "Lucida Bright", Georgia, serif;
-		font-size: 70px;
-		color: $ruby;
-		}
+	background: $blue;
+	padding: 15px;
+	h1 {
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 70px;
+	color: $ruby;
+	}
+}
+
+#body {
+	background: $creme;
+}
+
+#wrapper{
+	background: $ruby;
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+	positiion: relative;
+	min-height: 100%;
+	margin-bottom: 75px;
+	h1{
+	margin: 0 0 10px 10px;
+	padding-top: 10px;
+	font-size: 25px;
+	}
+	p {
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 10px;
+	}
 }
