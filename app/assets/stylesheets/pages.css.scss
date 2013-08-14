@@ -33,12 +33,13 @@ $marginH: 2%;
 	font-weight: bold;
 	display: inline-block;
 	margin-left: 15px;
-	padding: 20px 10px 22px 10px;
+	padding: 20px 10px 19px 10px;
 		a {
 		background: $ruby;
 		color: $creme;
 		font-weight: normal;
-		padding: -20px -10px -22px -10px;
+		padding: 20px 10px 17px 10px;
+		margin: -20px -10px -19px -10px;
 		}
 	}
 }
