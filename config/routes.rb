@@ -1,4 +1,6 @@
 Trulyruby::Application.routes.draw do
+  get "pages/projects"
+
   root to: "pages#home"
   get "pages/home"
 
