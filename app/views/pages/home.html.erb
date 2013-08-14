@@ -1,6 +1,6 @@
 <body>
 <div id="nav">
-	<% [["Home", :root]].each do |name,url| %>
+	<% [["Home", :root], ["Projects", :pages_projects]].each do |name,url| %>
     <li><%= link_to_unless_current(name, url) %></li>
   <% end %>
 </div>

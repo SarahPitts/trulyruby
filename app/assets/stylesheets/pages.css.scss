@@ -25,6 +25,7 @@ $marginH: 2%;
 	background: $ruby;
 	list-style: none;
 	height: 55px;
+	color: $creme;
 	li {
 	font-family: "Lucida Bright", Georgia, serif;
 	background: $creme;
@@ -34,10 +35,10 @@ $marginH: 2%;
 	margin-left: 15px;
 	padding: 20px 10px 22px 10px;
 		a {
-		font-family: "Lucida Bright", Georgia, serif;
-		display: inline-block;
-		padding: 10px;
+		background: $ruby;
 		color: $creme;
+		font-weight: normal;
+		padding: -20px -10px -22px -10px;
 		}
 	}
 }
