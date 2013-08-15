@@ -26,22 +26,23 @@ $marginH: 2%;
 	list-style: none;
 	height: 55px;
 	color: $creme;
-	li {
-	font-family: "Lucida Bright", Georgia, serif;
-	background: $creme;
-	color: $ruby;
-	font-weight: bold;
-	display: inline-block;
-	margin-left: 15px;
-	padding: 20px 10px 19px 10px;
-		a {
-		background: $ruby;
+	a {
+		font-family: "Lucida Bright", Georgia, serif;
 		color: $creme;
-		font-weight: normal;
-		padding: 21px 14px 17.5px 14px;
-		margin: -20px -10px -19px -10px;
+		font-weight: bold;
+		display: inline-block;
+		margin-left: 15px;
+		padding-left: 10px;
 		}
-	}
+	.current {
+		font-family: "Lucida Bright", Georgia, serif;
+		background: $creme;
+		color: $ruby;
+		font-weight: bold;
+		display: inline-block;
+		margin-left: 15px;
+		padding: 20px 10px 22px 10px;
+		}
 }
 
 #body {

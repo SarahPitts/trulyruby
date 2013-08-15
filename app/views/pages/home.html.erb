@@ -1,8 +1,7 @@
 <body>
 <div id="nav">
-	<% [["Home", :root], ["Projects", :pages_projects]].each do |name,url| %>
-    <li><%= link_to_unless_current(name, url) %></li>
-  <% end %>
+  <%= link_to 'Home', root_path, :class => current_class?(root_path) %>
+  <%= link_to 'Projects', pages_projects_path %>
 </div>
 <div id="header">
 	<img alt="Ruby" src="/assets/ruby.png" style="float:left"/> <h1>Truly Ruby</h1>
