@@ -16,3 +16,4 @@
 
 # Ignore public
 /public
+config/database.yml
