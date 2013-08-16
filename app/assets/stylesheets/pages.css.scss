@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "compass/reset";
+@import "compass/css3/box-shadow"
 
 $ruby: #A1101C;
 $blue: #688DA1;
@@ -51,6 +52,7 @@ $marginH: 2%;
 			display: inline-block;
 			margin-left: 15px;
 			padding: 20px 10px 22px 10px;
+			@include single-box-shadow;
 			}
 	}
 }
