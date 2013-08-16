@@ -14,6 +14,11 @@ $marginH: 2%;
 #header {
 	background: $blue;
 	padding: 15px;
+	#centered {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	}
 	h1 {
 	font-family: "Lucida Bright", Georgia, serif;
 	font-size: 70px;
@@ -26,27 +31,39 @@ $marginH: 2%;
 	list-style: none;
 	height: 55px;
 	color: $creme;
-	a {
-		font-family: "Lucida Bright", Georgia, serif;
-		color: $creme;
-		font-weight: bold;
-		display: inline-block;
-		margin-left: 15px;
-		padding-left: 10px;
-		}
-	.current {
-		font-family: "Lucida Bright", Georgia, serif;
-		background: $creme;
-		color: $ruby;
-		font-weight: bold;
-		display: inline-block;
-		margin-left: 15px;
-		padding: 20px 10px 22px 10px;
-		}
+	#centered {
+		width: 800px;
+		margin: 0 auto;
+		padding: 0;
+		a {
+			font-family: "Lucida Bright", Georgia, serif;
+			color: $creme;
+			font-weight: bold;
+			display: inline-block;
+			margin-left: 15px;
+			padding-left: 10px;
+			}
+		.current {
+			font-family: "Lucida Bright", Georgia, serif;
+			background: $creme;
+			color: $ruby;
+			font-weight: bold;
+			display: inline-block;
+			margin-left: 15px;
+			padding: 20px 10px 22px 10px;
+			}
+	}
 }
 
-#body {
+html {
+	height: 100%
+}
+
+body {
 	background: $creme;
+	min-height: 100%;
+	padding: 0px;
+  	margin: 0px;
 }
 
 #wrapper{

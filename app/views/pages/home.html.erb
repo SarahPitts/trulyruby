@@ -1,10 +1,14 @@
 <body>
 <div id="nav">
-  <%= link_to 'Home', root_path, :class => current_class?(root_path) %>
-  <%= link_to 'Projects', pages_projects_path %>
+	<div id="centered">
+	<%= link_to 'Home', root_path, :class => current_class?(root_path) %>
+	<%= link_to 'Projects', pages_projects_path %>
+	</div>
 </div>
 <div id="header">
+	<div id="centered">
 	<img alt="Ruby" src="/assets/ruby.png" style="float:left"/> <h1>Truly Ruby</h1>
+	</div>
 </div>
 <div id="wrapper">
 <h1>Pages#home</h1>
