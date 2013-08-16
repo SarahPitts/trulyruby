@@ -15,6 +15,7 @@ $marginH: 2%;
 #header {
 	background: $blue;
 	padding: 15px;
+	@include single-box-shadow;
 	#centered {
 	width: 800px;
 	margin: 0 auto;
